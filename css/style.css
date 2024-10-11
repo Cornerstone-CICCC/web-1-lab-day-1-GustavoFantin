@@ -2,3 +2,68 @@ main,
 footer {
   display: flex;
 }
+
+.logo {
+  text-align: center;
+  background-color: #121d51;
+}
+
+.sidebar {
+  background-color: #ffff00;
+}
+
+.content img {
+  width: 100%;
+}
+
+.content {
+  background-color: #00ffff;
+}
+
+.content h1 {
+  color: #000000;
+}
+
+.content #about+p {
+  color: white;
+  background-color: #000000;
+}
+
+.content #services+p {
+  color: white;
+  background-color: #008000;
+}
+
+#services+p+ul>li:nth-of-type(even) {
+  color: red;
+}
+
+
+.sidebar h3 {
+  color: blue;
+}
+
+#contact+ul a {
+  color: red;
+}
+
+#contact+ul+ul a {
+  color: red;
+}
+
+#contact+ul+ul+ul a {
+  color: red;
+}
+
+footer div:nth-child(1) {
+  background-color: #ffc0cb;
+}
+
+footer div:nth-child(2) {
+  background-color: #a52a2a;
+  color: white;
+}
+
+footer div:nth-child(3) {
+  background-color: #808080;
+}
